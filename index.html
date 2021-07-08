@@ -1,31 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="question-6/css/style.css">
-    <title>Function-refactoring</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Forecast App</title>
 </head>
+
 <body>
-  <div class="refactoring-contanier">
-    <h1>Weather API</h1>
-     <!-- weather input -->
-      <div class="weather-input">
-        <label for="countryname">Country Name:</label>
-        <input type="text" id="countryinput"><br><br>
-        <input type="submit" value="Submit" class="submit">
-      </div>
-     <!-- end of weather <input type="text"> -->
-     
-     <!-- dispaly weather contanier -->
-      <div id ="display-Weather">
-       <div id="display-div">
-        
-       </div>
-      </div>
-     <!-- end of display weather contanier -->
-  </div>
+    <div class="refactoring-contanier">
+        <h1>Weather App</h1>
+        <!-- weather input -->
+        <div class="weather-input-container">
+            <input type="text" id="city" class="weather-input" placeholder="Enter the city">
+            <button type="submit" class="submitButton">Check Weather</button>
+        </div>
+        <!-- end of weather input -->
+
+        <!-- dispaly weather contanier -->
+        <div id="display-weather-info">
+            <img class="weather-image" />
+            <h2 class="weather-temperature"></h2>
+        </div>
+        <!-- end of display weather contanier -->
+    </div>
 
     <script src="js/script.js"></script>
-</body></html>
+</body>
+
+</html>
