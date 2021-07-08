@@ -11,8 +11,8 @@ addTwoNumbers();
 /*a function that takes a number as a parameter and 
 returns the square root of that number*/
 
-let squareNum = isSquare(4)
-function isSquare() {
+let squareNum = squareRoot(4)
+function squareRoot() {
     Math.sqrt(4)
 }
 
